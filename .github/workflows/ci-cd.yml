@@ -39,7 +39,7 @@ jobs:
           rm -rf gitops
           
           # Clone repository using HTTPS URL without token
-          git clone https://github.com/badnails/kubs-test.git gitops
+          git clone https://github.com/badnails/kubs-ops-test.git gitops
           cd gitops
           
           if [[ "$OSTYPE" == "darwin"* ]]; then
